@@ -1,0 +1,225 @@
+*{
+			font-size: 18px; 
+			font-family:"Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	}
+
+body{
+			background: url(../img/form-background.jpg);
+		}
+
+h1{
+		font-size: 24px;
+		position: relative;
+		top: 10px;
+		left: 90px;
+		color: #c3c3c3;
+		cursor: default;
+	}
+
+h6{
+		position: absolute;
+		top: 0px;
+		cursor: default;
+		text-align:center;
+		color: #c3c3c3;
+	}
+
+p{
+		margin-left:350px;
+		font-size: 14px;
+		color:#c3c3c3;
+		cursor: default;
+
+	}
+
+		/*****************input placeholder *****************/
+
+::-webkit-input-placeholder {
+		font-size: 18px; 
+	}
+:-moz-placeholder { /* Firefox 18- */
+		font-size: 18px; 
+	}
+
+::-moz-placeholder {  /* Firefox 19+ */
+		font-size: 18px;  
+	}
+
+:-ms-input-placeholder {  
+		font-size: 18px; 
+	}
+
+		/*****************user information form *****************/
+
+.form{
+		margin: auto;
+		width: 400px;
+		height: 300px;
+		background-color: none;
+	}
+
+.form input{
+		font-size: 19px;
+		color: black;
+		padding-left: 25px;
+		background: transparent;
+		width: 300px;
+		height: 50px;
+		border-radius: 17px;
+		box-shadow: 5px 5px 10px #8B7D6B;
+		border-right-width: 1px;
+		border-right-color:  #8C7853;
+		border-left-width: 1px;
+		border-left-color:  #8C7853;
+		border-top-width: 3px;
+		border-top-color: #8C7853;
+		border-bottom-width: 2px;
+		border-bottom-color:  #8C7853;
+	}
+
+.form button{
+		cursor: pointer;
+		background: #2B2B2B;
+		width: 100px;
+		height: 40px;
+		border-radius: 7px;
+		margin-left: 100px;
+		box-shadow: 5px 5px 10px #8B7D6B;
+		border-right-width: 1px;
+		border-right-color:  #8C7853;
+		border-left-width: 1px;
+		border-left-color:  #8C7853;
+		border-top-width: 3px;
+		border-top-color: #8C7853;
+		border-bottom-width: 2px;
+		border-bottom-color:  #8C7853;
+		color: gray;
+		font-size: 18px; 
+	}
+
+.form ul{
+		list-style: none; 
+	}
+
+.form li{
+		margin-bottom: 10px;
+	}		
+
+input[class="name"]{
+		background-image: url(../img/user.png);
+    	background-position: 250px 3px;
+    	background-repeat: no-repeat;
+	}
+
+input[class="email"]{
+		background-image: url(../img/email.png);
+    	background-position: 250px 3px;
+    	background-repeat: no-repeat;
+	}
+
+input[class="phone"]{
+		background-image: url(../img/phone.png);
+    	background-position: 258px 3px;
+    	background-repeat: no-repeat;
+	}
+		
+		/*****************user information table*****************/
+
+table{
+		border-radius: 10px;
+		border-color: #344152;
+		background: transparent;
+		width: 700px;
+		height: auto;
+	}
+	
+tr:first-child{
+		background:  #2B2B2B;
+		color: gray;
+	}
+	
+	
+.delete{
+		cursor: pointer;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+.info{
+		cursor: not-allowed;
+		margin: auto;
+	}
+
+		/*****************dailog box that appears whe row is clicked*****************/
+
+.dailog{
+		margin:auto;
+		height: 170px;
+		width: 300px;
+		border: 1px solid #999 ;
+		background: url(../img/form-background.jpg) no-repeat;
+		border-radius: 10px;
+		box-shadow: 25px 25px 10px #000;
+		position: absolute;
+		top:200px;
+		left: 510px;
+		display: none;
+		padding:10px;
+	}
+
+.deleteButton, .cancelButton{
+		cursor: pointer;
+		background: #2B2B2B;
+		width: 100px;
+		height: 40px;
+		border-radius: 7px;
+		box-shadow: 5px 5px 10px #8B7D6B;
+		border-right-width: 1px;
+		border-right-color:  #8C7853;
+		border-left-width: 1px;
+		border-left-color:  #8C7853;
+		border-top-width: 3px;
+		border-top-color: #8C7853;
+		border-bottom-width: 2px;
+		border-bottom-color:  #8C7853;
+		color: gray;
+		font-size: 18px;
+		top:80px;
+		
+	}
+
+.cancelButton{
+		position: absolute;
+		left: 170px;
+		display: inline;
+	}
+
+.deleteButton{
+		position: absolute;
+		left: 30px;
+		
+	}
+	
+.cancelButtonafter{
+
+		cursor: pointer;
+		background: #2B2B2B;
+		width: 100px;
+		height: 40px;
+		border-radius: 7px;
+		border-right-width: 1px;
+		border-right-color:  #8C7853;
+		border-left-width: 1px;
+		border-left-color:  #8C7853;
+		border-top-width: 3px;
+		border-top-color: #8C7853;
+		border-bottom-width: 2px;
+		border-bottom-color:  #8C7853;
+		color: gray;
+		font-size: 18px;
+		position: absolute;
+		top:120px;
+		left: 180px;
+		display: inline;
+	}
+

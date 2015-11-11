@@ -1,0 +1,146 @@
+*  {
+		margin: 0;
+		padding: 0;
+		font-family:"Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	}
+
+body{
+	 		
+	 	background: url(../img/background.jpg);
+	 	background-size: cover;*
+	}
+
+h4,h6{
+		padding: 0;
+		margin: 0;
+		display: inline;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+		letter-spacing: -0.7px;
+		font-weight: normal;
+		color: #4f3f3f;
+	}
+
+h4{
+		position: absolute;
+		top: 24.9px;
+		left: 20px;
+		margin-right: 4px;
+	}
+
+h6{
+		position: absolute;
+		top: 30px;
+		left:120px;
+	}
+		
+		/********************input placeholder style********************/
+
+::-webkit-input-placeholder {  /*chrome*/
+		color: white;
+		font-size: 11px; 
+	}
+
+:-moz-placeholder {  /* Firefox 18- */
+		color: white;
+		font-size: 11px; 
+	}
+
+::-moz-placeholder {  /* Firefox 19+ */
+		color: white;
+		font-size: 11px;  
+	}
+
+:-ms-input-placeholder {  /*intenet explorer*/
+		color: white; 
+		font-size: 11px; 
+	}
+
+		/*************************dropdown div*************************/
+
+.drop{
+		margin: auto;
+		height: 100px;
+		width: 390px;
+		border: 1px solid #999 ;
+		background: transparent;
+		border: transparent;
+		border-radius: 10px;
+		box-shadow: 0px 0px 5px #000;
+		position: relative;
+		top:-140px;
+		padding:10px;
+	    background-image:linear-gradient(to bottom, #988d7e 0.01%, transparent 5%),
+	    				 linear-gradient(to top, #988d7e 0.01%, transparent 5%),
+	    				 linear-gradient(to left, #988d7e 0.01%, transparent 2%),
+	    				 linear-gradient(to right, #988d7e 0.01%, transparent 2%);
+	}
+		
+.drop input{
+		height: 35px;
+		width: 140px;
+		border-radius: 7px;
+		background-color: transparent;
+		padding-left: 10px;
+		padding-top: 2px;
+		color:#1A1A1A;
+		border-right-width: 0.68px;
+		border-right-color:  #535353;
+		border-left-width: 0.67px;
+		border-left-color:  #a3a3a3;
+		border-top-width: 2px;
+		border-top-color:  #a3a3a3;
+		border-bottom-width: 1px;
+		border-bottom-color:  #a3a3a3;
+	}
+		
+.drop button{
+		width: 60px;
+		height: 35px;
+		padding-top: 4px;
+		background-color:#4c4843; 
+		border-radius: 7px;
+		opacity: 0.9;
+		position: absolute;
+		top: 62px;
+		left: 320px;
+		color:white;
+		border:none;
+		border-bottom-width: 5px;
+		border-bottom-color:#24201d; 
+		box-shadow:  0 1.5px 2px #24201d;
+		cursor: pointer;
+		font-size: 12px;
+	}
+
+		/**************input box position**************/
+
+.name{
+		position: absolute;
+		top: 62px;
+		left: 30px
+	}
+
+.password{
+		position: absolute;
+		top: 62px;
+		left: 175px
+	}
+
+		/**************input box icon**************/
+
+input[class="name"]{
+		background-image: url(../img/user1.png);
+    	background-position: 112px 7px;
+    	background-repeat: no-repeat;
+	}
+
+input[class="password"]{
+		background-image: url(../img/password.png);
+    	background-position: 112px 7px;
+    	background-repeat: no-repeat;
+	}
+
+
+		
+
+

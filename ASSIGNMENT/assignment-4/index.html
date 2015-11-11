@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+	 	<title>tic-tac-toe</title>
+	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 	<link rel="icon" href="./img/tabIcon.png" />
+	 	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="./css/main.css">
+	 </head>
+
+	<body>
+		<div class="middleWrapper">
+			<h1>tic tac toe</h1>
+
+			<div class="tableDiv">
+				<table class="tiles">
+					<tr class="row1">
+						<td data-number="1" data-check="0"> </td>
+						<td data-number="2" data-check="0"> </td>
+						<td data-number="3" data-check="0"> </td>
+					</tr>
+					<tr class="row2">
+						<td data-number="4" data-check="0"> </td>
+						<td data-number="5" data-check="0"> </td>
+						<td data-number="6" data-check="0"> </td>
+					</tr>
+					<tr class="row3">
+						<td data-number="7" data-check="0"> </td>
+						<td data-number="8" data-check="0"> </td>
+						<td data-number="9" data-check="0"> </td>
+					</tr>
+				</table><!-- tic-tac-toe bord table end -->
+			</div><!-- tableDiv end -->
+	
+			<button class="reset">Reset</button>
+		</div><!--middleWrapper div end-->
+
+		<div class="scoreBord">
+			<table class="score" >
+				<tr>
+					<th>Player 1</th>
+					<th>Player 2</th>
+					<th>Tie</th>
+				</tr>
+				<tr>
+					<td class="player1">0</td>
+					<td class="player2">0</td>
+					<td class="tie">0</td>
+				</tr>
+			</table><!-- score table end -->
+		</div><!--scoreBord div end-->
+
+		<div class="instruction">
+			<h2>Instructions To Play</h2>
+
+			<p>
+				The player whose turn is first has the choice to mark  'O' or 'X' to one of the nine squares , Here we choose 'O' for first player.
+			</p>
+			<p>
+				Second player then mark its symbol  'X' in the remaining 8 squares
+				The thumb of the rule is to make the three successive squaare grids of the same sign , it does not matter whether they are horizontal , vertical or diagonal , they just need to be three consecutive squares filled with same symbol 'O' or 'X'.
+			</p>
+			<p>
+				First player who is able to make three consecutive squares with same symbol WINS.
+			</p>
+			<p>
+				If both players fails to make three consecutive squares with same symbol then the game will be TIE.
+			</p>
+		</div><!--instruction div end-->
+
+		<script type="text/javascript" src="./javascript/jquery-1.11.3.js"></script>
+	 	<script type="text/javascript" src="./javascript/main.js"></script>
+	</body>
+ </html>

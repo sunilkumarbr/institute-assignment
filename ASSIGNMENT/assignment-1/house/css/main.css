@@ -1,0 +1,58 @@
+#wrapper{
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	position: relative;
+	top:100px;
+	}
+
+.chimny{
+	height: 60px;
+	width: 100px;
+	background-color: #FF3030;
+	position: absolute;
+	left: 200px;
+	}
+
+.roof{
+	height: 120px;
+	width: 500px;
+	background-color: #31B94D;
+	position: absolute;
+	top: 60px;
+	}
+
+.house{
+	height: 220px;
+	width: 500px;
+	background-color: #0EBFE9;
+	position: absolute;
+	top: 180px;
+	}
+
+.window{
+	height: 105px;
+	width: 120px;
+	background-color: black;
+	float: left;
+	margin-left: 35px;
+	margin-top: 7px;
+	}
+
+.door{
+	height: 213px;
+	width: 130px;
+	background-color: #FF3030;
+	float: left;
+	margin-left: 30px;
+	margin-top: 7px;
+	}
+
+.door p{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #008080;
+	margin-top: 30px;
+	}

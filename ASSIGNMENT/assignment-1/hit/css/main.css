@@ -1,0 +1,36 @@
+#wraper{
+	height: 300px;
+	width: 900px;
+	margin: auto;
+	background: gray;
+	position: relative;
+	top:150px;
+	}
+
+.box_red{
+	height: 100px;
+	width: 100px;
+	background-color: #FF3030;
+	float: left
+	}
+
+.box_green{
+	height: 100px;
+	width: 100px;
+	background-color: #31B94D;
+	float: left
+	}
+
+.box_blue{
+	height: 100px;
+	width: 100px;
+	background-color: #0EBFE9;
+	float: left
+	}
+
+.box_blank{
+	height: 100px;
+	width: 100px;
+	background-color: #FFFFFF;
+	float: left
+	}

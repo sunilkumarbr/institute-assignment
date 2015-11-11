@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Shofa Website</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="shortcut icon" href="./img/logo.png"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+    <div id="dialogoverlay"></div><!--div to disable the background when dialog box pop-ups-->
+    <div id="dialogbox"><!--customized alert box-->
+        <div>
+            <div id="dialogboxhead"></div>
+            <div id="dialogboxbody"></div>
+            <div id="dialogboxfoot"></div>
+        </div>
+    </div><!--customized alert box div ends-->
+    <div class="afterHeader"><!--div to place logo-->
+        <p>Sofa.</p>
+    </div><!--logo div ends-->
+    <div class="logo"></div><!--logo div-->
+    <div id="container"><!--div for form-->
+        <!-- <form action="#"> -->
+
+	        <h4>Choose the colour you would like:</h4>
+	        <hr/>
+	        <div class="colors"><!--div for radio buttons-->
+	            <input type="radio" id="radio1" name="color" value="red" onclick="colorClick()" />
+	            <label for="radio1">Red</label>
+	            <input type="radio" id="radio2" name="color" value="blue" onclick="colorClick()" />
+	            <label for="radio2">Blue</label>
+	            <input type="radio" id="radio3" name="color" value="orange" onclick="colorClick()" />
+	            <label for="radio3">Orange</label>
+	            <input type="radio" id="radio4" name="color" value="green" onclick="colorClick()" />
+	            <label for="radio4">Green</label>
+	        </div><!--radio button div ends here-->
+
+	        <h4>Choose the design you would like:</h4>
+	        <hr/>
+	        <div class="design"><!--div for img button-->
+	            <div class="leftButton" onclick="imgScrollButton('left')"></div>
+	            <div class="leftButtonshape"></div>
+	            <button type="text" data-field="Design1" onclick="imgScroll(1)">1</button>
+	            <button type="text" data-field="Design2" onclick="imgScroll(2)">2</button>
+	            <button type="text" data-field="Design3" onclick="imgScroll(3)">3</button>
+	            <div class="rightButton" onclick="imgScrollButton('rigth')"></div>
+	            <div class="rightButtonshape"></div>
+	        </div><!--img button div ends here-->
+
+	        <div class="designValue"><!--div for design name shower-->
+	            <input type="text" placeholder="Design1" disabled="true" />
+	        </div>
+
+	        <div class="imgDiv"><!--div for design imgs-->
+	            <ul>
+	                <li>
+	                    <img src="./img/sofa1.png" alt="sofaDesign1" />
+	                </li>
+	                <li>
+	                    <img src="./img/sofa2.png" alt="sofaDesign2" />
+	                </li>
+	                <li>
+	                    <img src="./img/sofa3.png" alt="sofaDesign3" />
+	                </li>
+	            </ul>
+	        </div><!--img design div ends-->
+	        <button type="submit" id="submit" onclick="submitForm();return false;">Submit Request</button>
+        <!-- </form> -->
+    </div><!--form div ends here-->
+    <div class="header"></div><!--header div-->
+    <div id="navigationBar">
+    	<div id="hide">
+	    	<p><a href="#" >Home</a></p>
+	    	<hr/>
+	    	<p><a href="#">Your Profile</a></p>
+	    	<hr/>
+	    	<p><a href="#">Orders</a></p>
+	    	<hr/>
+	    	<p><a href="#">Contact</a></p>
+    	</div>
+    </div>
+    <div class="navigation" onclick="navigate()"><span>+</span></div>
+
+
+    <script src="./javaScript/main.js" type="text/javascript"></script>
+</body>
+
+</html>

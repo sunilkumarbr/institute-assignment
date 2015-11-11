@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form</title>
+		<link rel="stylesheet" href="../css/form_page.css">
+	</head>
+
+	<body>
+		<form action="#" method="get">
+			<div class="form"> <!-- user information form -->
+				<h1>User Information</h1>
+				<ul>
+					<li><input class="name" type="text" placeholder="Enter Your Name*"/></li>
+					<li><input class="email" type="text" placeholder="Email*"/></li>
+					<li><input class="phone" type="text" placeholder="Phone*"/></li>
+					<li><button class="submit">Submit</button>
+					</li>
+				</ul>
+			</div> <!-- end form-->
+		</form>
+
+		<p>(*Please click on the row if you want to delete it.)</p>
+
+		<table border="2px" class="info"> <!-- infromation table -->
+			<tr>
+				<th width="30%">Name</th>
+				<th width="47%">Email</th>
+				<th width="23%">Phone</th>
+			</tr>
+		</table><!-- end table -->
+		
+		<div class="dailog"> <!-- delet dailod box -->
+			<h6>Are you sure, you want to delete this row.?<h6>
+			<button class="deleteButton">Yes</button>
+			<button class="cancelButton">Cancel</button>
+		</div> <!-- dailog box div end -->
+
+		<script type="text/javascript" src="../javascript/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../javascript/form.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,163 @@
+body{
+		margin:auto;
+		background-image: url(../img/background4.jpg);
+		background-size: cover;
+		color: white;
+		font-family: 'Indie Flower', cursive;
+		cursor: default;
+	}
+
+		/********************* middle division *********************/
+
+.middleWrapper{
+		margin: 0px;
+		padding: 0px;
+	}
+
+button.reset{
+		color: white;
+		font-size: 18px;
+		font-family:  'Indie Flower', cursive;
+		margin: auto;
+		position: absolute;
+		left: 605px;
+		top: 630px;
+		width: 100px;
+		height: 40px;
+		background-color: #3f3f3f;
+		border-radius: 5px;
+		border: transparent;
+		box-shadow: 2px 2px 5px black;
+		}
+
+button:hover{
+		background-color: #202020;
+		}
+
+h1{
+		position: absolute;
+		top:0px;
+		left:45px;
+		text-align: center;
+		font-family: 'Indie Flower', cursive;
+		color: #D9D9F3;
+		margin-left: 500px;
+		font-size: 50px;
+		text-shadow: 10px 10px 5px black;
+	}
+
+		/********************* tic-tac-toe Bord *********************/
+
+.tableDiv{
+		position:relative;
+		top:140px;
+		margin-left:400px;
+		width: 500px;
+		height: 470px;
+		background-image: url(../img/page2.jpg) ;
+		box-shadow: 5px 5px 5px black;
+		border-radius: 10%;
+	}
+
+.tiles{
+		position: absolute;
+		top: 45px;
+		left: 50px;
+	}
+
+.tiles	td{
+		font-size: 1px;
+		color:white;
+		width: 128px;
+		height: 128px;
+		text-align: center;
+		border: none;
+				
+	}
+
+		/********************* Score Bord *********************/
+
+.scoreBord{
+		position: absolute;
+		top: 250px;
+		left:30px;
+		color: white;
+		float: left;
+	}
+	
+.scoreBord p{
+		position: absolute;
+		top: 145px;
+		left: 20px;
+		text-align: center;
+	}
+
+.scoreBord h2{
+		position: absolute;
+		top: 145px;
+		left: 0px;
+		color: green;
+		font-size: 30px;
+		text-align: center;
+	}
+
+.scoreBord h3{
+		position: absolute;
+		top: 250px;
+		left: 30px;
+		color:#E33638;
+		font-size: 20px;
+		text-align: center;
+	}
+	
+.score td{
+		text-align: center;
+		color:red;
+		font-size: 70px;
+		width: 100px;
+		height: 50px;
+		border-radius: 7%;
+		/*border: 1px dashed black;*/
+		background-image: url(../img/scoreBackground.png) ;
+	}
+
+.scoreBord span{
+		font-size: 24px;
+		margin-left: 10px;
+		color: orange;
+	}
+
+	
+.scoreBord table{
+		margin: 0;
+	}
+
+		/********************* Game Instruction *********************/
+
+.instruction{
+		position: absolute;
+		top: 120px;
+		left:965px;
+		width:380px;
+		height: 400px;
+		color: #D9D9F3;
+	}
+
+.instruction h2{
+		margin-left: 30px;
+		font-size: 30px;
+		color: #E18E2E;
+	}
+
+		/*.row1 td:nth-child(1),.row1 td:nth-child(2),.row2 td:nth-child(1),.row2 td:nth-child(2){
+			border-right: 5px solid white;
+
+			border-bottom: 5px solid white;
+		}
+
+		.row1 td:nth-child(3),.row2 td:nth-child(3){
+			border-bottom: 5px solid white;
+		}
+		.row3 td:nth-child(1), .row3 td:nth-child(2){
+			border-right: 5px solid white;
+		}*/
